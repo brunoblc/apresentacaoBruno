@@ -22,9 +22,9 @@ body{
 }
 
 header{
-    margin-top: 10px;
+    margin-bottom: 45px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1a1821;
     align-items: center;
     border-bottom: 1px solid #ffffff;
@@ -48,9 +48,7 @@ header ul li a:hover {
 }
 
 .container{
-    text-align: center;
-    padding: 20px;
-   
+    text-align: center;   
 }
 
 .name h1{
@@ -58,11 +56,11 @@ header ul li a:hover {
     background-color:rgba(3, 3, 3, 0.801);
     width: 450px; 
     margin: 0 auto;  
+    margin-bottom: 25px;
 }
 
 .container .name h5{
     font-size: 20px;
-    padding: 20px;
     width: 280px; 
     margin: 0 auto;  
     background-color: rgba(3, 3, 3, 0.801);
@@ -107,4 +105,25 @@ header ul li a:hover {
 #about .exp {
     text-align: left;
     padding: 0;    
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+    .container .name h1 {
+        font-size: 30px;
+        width: auto;
+        text-align:center;
+    }
+
+    .container .name h5 {
+        font-size: 15px;
+    }
+
+    header ul li {
+        padding: 15px;
+    }
+
+    #about p {
+        max-width: 80%;
+        text-align: left;
+    }
 }
