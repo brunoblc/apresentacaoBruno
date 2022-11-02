@@ -107,7 +107,7 @@ header ul li a:hover {
     padding: 0;    
 }
 
-@media (min-width: 360px) and (max-width: 480px) {
+@media (min-width: 350px) and (max-width: 480px) {
     .container .name h1 {
         font-size: 30px;
         width: auto;
@@ -116,6 +116,10 @@ header ul li a:hover {
 
     .container .name h5 {
         font-size: 15px;
+    }
+
+    header {
+        width: auto;
     }
 
     header ul li {
